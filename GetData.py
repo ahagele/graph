@@ -5,8 +5,6 @@ from io import StringIO
 import sys
 import os
 
-
-
 try:
     from Tkinter import Tk
     from Tkinter.filedialog import askopenfilename
