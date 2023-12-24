@@ -1,5 +1,6 @@
 # Notes For Graphing Pico calibration data
-## Heading 2
+# Another heading
+
 
 [Extract Values between two strings in a text file using python](https://stackoverflow.com/questions/18865058/extract-values-between-two-strings-in-a-text-file-using-python)
 
@@ -12,6 +13,8 @@
 [numpy read files](https://python-course.eu/numerical-programming/reading-and-writing-data-files-ndarrays.php)
 
 [multiple axis graph](https://matplotlib.org/3.4.3/gallery/ticks_and_spines/multiple_yaxis_with_spines.html)
+
+[interate class](https://www.w3schools.com/python/python_iterators.asp#:~:text=To%20create%20an%20object%2Fclass,the%20object%20is%20being%20created.)
 
 ---
 ## watch out for
@@ -34,6 +37,20 @@
 
 options:
 - view source data (table or export as csv)
+
+# Log
+4/12/23 refactor
+- classes for: data collect, csv, graph
+
+lvm data class:
+input: file name, block delimiter, column numbers, column names
+output list of cal lists 
+
+csv output class (1 set of data):
+input: list of data points, file name
+output: csv file
+
+
 
 
    
